@@ -4,7 +4,7 @@
 	"syntax":"createUUID()",
 	"returns":"UUID",
 	"related":[],
-	"description":" Creates a Universally Unique Identifier (UUID). A UUID is a\n 35-character string representation of a unique 128-bit integer\n xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxxxxxx : x is a hexadecimal digit",
+	"description":" Creates a Universally Unique Identifier (UUID). A UUID is a\n 35-character string representation of a unique 128-bit integer\n xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxxxxxx : x is a hexadecimal digit\n\nThe ColdFusion UUID format is as follows:\n\nxxxxxxxx-xxxx-xxxx-xxxxxxxxxxxxxxxx (8-4-4-16).\n\nThis does not conform to the Microsoft/DCE standard, which is as follows:\n\nxxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx (8-4-4-4-12)",
 	"params": [
 	],
 	"engines": {
